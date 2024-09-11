@@ -1,0 +1,12 @@
+#--- This is the Basic Workflowto help you get started with Actions - Jaideep (11/09/2024).
+name: First Workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting.
+        run: echo "Hi Jaideep..."
+      - name: Print GoodBye
+        run: echo "Done - Bye!"
+        
